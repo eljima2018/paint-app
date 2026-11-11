@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نقاشی من</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="toolbar">
+    <button data-tool="brush" class="active">قلم</button>
+    <button data-tool="eraser">پاک‌کن</button>
+    <button data-tool="line">خط</button>
+    <button data-tool="rect">مستطیل</button>
+    <button data-tool="circle">دایره</button>
+    <input type="color" id="color" value="#000000">
+    <input type="range" id="size" min="1" max="50" value="5">
+    <button id="undo">Undo</button>
+    <button id="redo">Redo</button>
+    <button id="clear">پاک کردن همه</button>
+    <button id="save">ذخیره PNG</button>
+  </div>
+  <canvas id="canvas" width="1000" height="600"></canvas>
+  <script src="app.js"></script>
+</body>
+</html>
