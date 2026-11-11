@@ -1,0 +1,5 @@
+body { margin: 0; font-family: sans-serif; background: #eee; }
+#toolbar { display: flex; gap: 8px; padding: 10px; background: #333; flex-wrap: wrap; align-items: center; }
+#toolbar button { padding: 6px 12px; cursor: pointer; }
+#toolbar button.active { background: #4caf50; color: #fff; }
+canvas { background: #fff; display: block; margin: 20px auto; box-shadow: 0 0 10px #0004; touch-action: none; max-width: 100%; }
